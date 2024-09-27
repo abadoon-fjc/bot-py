@@ -43,7 +43,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
 
 def main() -> None:
     # Создаем приложение
-    application = ApplicationBuilder().token('YOUR_TELEGRAM_BOT_TOKEN').build()
+    application = ApplicationBuilder().token('7665845880:AAHUFh2zGRcrsETD53Vd2HL5OCOw9da8TW8').build()
 
     # Обработчики команд и сообщений
     application.add_handler(CommandHandler('start', start))
